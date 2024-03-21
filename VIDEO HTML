@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="video.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>desenhos</h1>
+
+    </header>
+    <main>
+
+        <section>
+            <h2>mr.bean</h2>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/V-7pI8YLf3E"
+                title="Coleção de adesivos de Bean | Mr. Bean em Português | WildBrain em Português" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>moranguinho</h2>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/vZM2ZrUUCnw"
+                title="Moranguinho 🍓 O melhor biscoito 🍓 Desenhos Animado" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+
+
+        <section>
+            <h2>picapau</h2>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/_UFJ1jnvUy0"
+                title="Guerra dos Cachorros-Quentes | Pica-Pau em Português" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+    </main>
+
+</body>
+
+</html>
+
+
+
+CSS////////
+
+
+body{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+margin: 0%;
+padding: 0%;
+
+}
+header{
+background-color: rgb(47, 214, 219);
+text-align: 30px;
+padding: 30px;
+font-size: 30px;
+color: black;
+}
+main{
+display: flex;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+section{
+width: calc(33.33% - 20px);
+margin-bottom: 20px;
+
+}
+iframe{
+width: 100%;
+}
